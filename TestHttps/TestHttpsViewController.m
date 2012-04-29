@@ -16,7 +16,6 @@
 
 -(void)test:(id)sender
 {
-    NSLog(@"test");
     NSString *str = @"https://www.deeplove.com/~peterpan/vk/vk.jpg";
     NSURL *url = [NSURL URLWithString:str];
     NSURLRequest *req = [NSURLRequest requestWithURL:url];
