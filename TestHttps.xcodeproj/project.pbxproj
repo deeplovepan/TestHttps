@@ -22,14 +22,14 @@
 		A632B8C4154C310D004DECEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A632B8C6154C310D004DECEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A632B8C8154C310D004DECEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A632B8CC154C310D004DECEC /* TestHttps-Info.plist */ = {isa = PBXFileReference; path = "TestHttps-Info.plist"; sourceTree = "<group>"; };
+		A632B8CC154C310D004DECEC /* TestHttps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestHttps-Info.plist"; sourceTree = "<group>"; };
 		A632B8CE154C310D004DECEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A632B8D0154C310D004DECEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A632B8D2154C310D004DECEC /* TestHttps-Prefix.pch */ = {isa = PBXFileReference; path = "TestHttps-Prefix.pch"; sourceTree = "<group>"; };
-		A632B8D3154C310D004DECEC /* TestHttpsAppDelegate.h */ = {isa = PBXFileReference; path = TestHttpsAppDelegate.h; sourceTree = "<group>"; };
+		A632B8D2154C310D004DECEC /* TestHttps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestHttps-Prefix.pch"; sourceTree = "<group>"; };
+		A632B8D3154C310D004DECEC /* TestHttpsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestHttpsAppDelegate.h; sourceTree = "<group>"; };
 		A632B8D4154C310D004DECEC /* TestHttpsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestHttpsAppDelegate.m; sourceTree = "<group>"; };
 		A632B8D7154C310D004DECEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A632B8D9154C310D004DECEC /* TestHttpsViewController.h */ = {isa = PBXFileReference; path = TestHttpsViewController.h; sourceTree = "<group>"; };
+		A632B8D9154C310D004DECEC /* TestHttpsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestHttpsViewController.h; sourceTree = "<group>"; };
 		A632B8DA154C310D004DECEC /* TestHttpsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestHttpsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -240,6 +240,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestHttps/TestHttps-Prefix.pch";
 				INFOPLIST_FILE = "TestHttps/TestHttps-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -251,6 +252,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestHttps/TestHttps-Prefix.pch";
 				INFOPLIST_FILE = "TestHttps/TestHttps-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +277,7 @@
 				A632B8E0154C310D004DECEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

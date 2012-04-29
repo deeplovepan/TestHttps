@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TestHttpsViewController : UIViewController
-
+@interface TestHttpsViewController : UIViewController <NSURLConnectionDataDelegate, NSURLConnectionDelegate>
+{
+    NSMutableData *receiveData;
+}
 @end
